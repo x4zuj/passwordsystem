@@ -11,8 +11,8 @@ while password == "required":
     print(user_input,"Enter your password. ")
     password_input = input("Password: ")
     if password_input == "Test123":
+        password = "correct"
         print("Successfully in!")
         input("Press ENTER or Ctrl+C to exit the program.")
-        exit()
     else:
         print("The password is incorrect. Please try it again. ")
